@@ -1,0 +1,2 @@
+# LoganManager
+LoganSoft
