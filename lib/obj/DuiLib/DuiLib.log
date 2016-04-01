@@ -1,0 +1,152 @@
+﻿生成启动时间为 2016/4/1 20:50:21。
+     1>项目“C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\LoganUI\DuiLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\DuiLib.pch" /Fo"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\\" /Fd"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Utils/Utils.h(350): warning C4251: “DuiLib::CDuiFont::m_strFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“DuiLib::CDuiFont”的客户端使用
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Utils/Utils.h(351): warning C4251: “DuiLib::CDuiFont::m_strFontName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“DuiLib::CDuiFont”的客户端使用
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Core/UIManager.h(47): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Control/UIFileList.h(65): warning C4251: “DuiLib::Node::_children”: class“std::vector<DuiLib::Node *,std::allocator<_Ty>>”需要有 dll 接口由 class“DuiLib::Node”的客户端使用
+                 with
+                 [
+                     _Ty=DuiLib::Node *
+                 ]
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Control/UIMenu.h(212): warning C4275: 非 dll 接口 class“DuiLib::ReceiverImpl”用作 dll 接口 class“DuiLib::CMenuWnd”的基
+         c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Control/UIMenu.h(151): note: 参见“DuiLib::ReceiverImpl”的声明
+         c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Control/UIMenu.h(212): note: 参见“DuiLib::CMenuWnd”的声明
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Control/UIMenu.h(237): warning C4251: “DuiLib::CMenuWnd::m_xml”: class“DuiLib::STRINGorID”需要有 dll 接口由 class“DuiLib::CMenuWnd”的客户端使用
+         c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\Utils/Utils.h(15): note: 参见“DuiLib::STRINGorID”的声明
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\DuiLib.pch" /Fo"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\\" /Fd"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Control\UIActiveX.cpp Control\UIAnimation.cpp Control\UIButton.cpp Control\UICalendar.cpp Control\UIChartView.cpp Control\UICheckBox.cpp Control\UICombo.cpp Control\UIComboBox.cpp Control\UIComboEdit.cpp Control\UIDateTime.cpp Control\UIEdit.cpp Control\UIFadeButton.cpp Control\UIFileList.cpp Control\UIFlash.cpp Control\UILabel.cpp Control\UIList.cpp Control\UIMenu.cpp Control\UIOption.cpp Control\UIProgress.cpp Control\UIRichEdit.cpp Control\UIScrollBar.cpp Control\UISlider.cpp Control\UIText.cpp Control\UITreeView.cpp Control\UIWebBrowser.cpp Core\UIBase.cpp Core\UIContainer.cpp Core\UIControl.cpp Core\UIDlgBuilder.cpp Core\UIDxAnimation.cpp Core\UIManager.cpp Core\UIMarkup.cpp Core\UIRender.cpp Core\UITimer.cpp Layout\UIChildLayout.cpp Layout\UIHorizontalLayout.cpp Layout\UITabLayout.cpp Layout\UITileLayout.cpp Layout\UIVerticalLayout.cpp UIlib.cpp Utils\DropTargetEx.cpp Utils\TrayIcon.cpp Utils\UIDelegate.cpp Utils\Utils.cpp Utils\WinImplBase.cpp
+         WinImplBase.cpp
+     1>Utils\WinImplBase.cpp(593): warning C4800: “LPARAM”: 将值强制为布尔值“true”或“false”(性能警告)
+         Utils.cpp
+         UIDelegate.cpp
+         TrayIcon.cpp
+         DropTargetEx.cpp
+         UIlib.cpp
+         UIVerticalLayout.cpp
+     1>Layout\UIVerticalLayout.cpp(251): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UITileLayout.cpp
+         UITabLayout.cpp
+         UIHorizontalLayout.cpp
+     1>Layout\UIHorizontalLayout.cpp(246): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIChildLayout.cpp
+         UITimer.cpp
+         UIRender.cpp
+     1>Core\UIRender.cpp(416): warning C4101: “avg”: 未引用的局部变量
+     1>Core\UIRender.cpp(1325): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+     1>Core\UIRender.cpp(1428): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>Core\UIRender.cpp(1460): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+         UIMarkup.cpp
+         UIManager.cpp
+         UIDxAnimation.cpp
+     1>Core\UIDxAnimation.cpp(97): warning C4297: “DuiLib::CDxAnimationUI::~CDxAnimationUI”: 假定函数不引发异常，但确实发生了
+         Core\UIDxAnimation.cpp(97): note: 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+         UIDlgBuilder.cpp
+         UIControl.cpp
+     1>Core\UIControl.cpp(682): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIContainer.cpp
+         UIBase.cpp
+         正在生成代码...
+         正在编译...
+         UIWebBrowser.cpp
+         UITreeView.cpp
+     1>Control\UITreeView.cpp(925): warning C4800: “long”: 将值强制为布尔值“true”或“false”(性能警告)
+         UIText.cpp
+     1>Control\UIText.cpp(55): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UISlider.cpp
+     1>Control\UISlider.cpp(207): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIScrollBar.cpp
+         UIRichEdit.cpp
+         UIProgress.cpp
+         UIOption.cpp
+         UIMenu.cpp
+         UIList.cpp
+     1>Control\UIList.cpp(1449): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+     1>Control\UIList.cpp(1994): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UILabel.cpp
+     1>Control\UILabel.cpp(67): warning C4297: “DuiLib::CLabelUI::~CLabelUI”: 假定函数不引发异常，但确实发生了
+         Control\UILabel.cpp(67): note: 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+         UIFlash.cpp
+         UIFileList.cpp
+     1>Control\UIFileList.cpp(595): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         UIFadeButton.cpp
+         UIEdit.cpp
+     1>Control\UIEdit.cpp(225): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIDateTime.cpp
+     1>Control\UIDateTime.cpp(231): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIComboEdit.cpp
+         UIComboBox.cpp
+         UICombo.cpp
+         UICheckBox.cpp
+         正在生成代码...
+         正在编译...
+         UIChartView.cpp
+         UICalendar.cpp
+         UIButton.cpp
+     1>Control\UIButton.cpp(131): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+         UIAnimation.cpp
+         UIActiveX.cpp
+         正在生成代码...
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\\" /Fd"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Utils\stb_image.c
+         stb_image.c
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\\" /Fd"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Utils\XUnzip.cpp
+         XUnzip.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\DuiLib.dll) does not match the Linker's OutputFile property value (C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\bin\DuiLib_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/DuiLib_d.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\DuiLib.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../lib/DuiLib_d.lib" /MACHINE:X86 /SAFESEH /DLL C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIActiveX.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIAnimation.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIButton.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UICalendar.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIChartView.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UICheckBox.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UICombo.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIComboBox.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIComboEdit.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIDateTime.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIEdit.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIFadeButton.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIFileList.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIFlash.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UILabel.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIList.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIMenu.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIOption.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIProgress.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIRichEdit.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIScrollBar.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UISlider.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIText.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UITreeView.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIWebBrowser.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIBase.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIContainer.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIControl.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIDlgBuilder.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIDxAnimation.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIManager.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIMarkup.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIRender.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UITimer.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIChildLayout.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIHorizontalLayout.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UITabLayout.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UITileLayout.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIVerticalLayout.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\StdAfx.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIlib.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\DropTargetEx.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\stb_image.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\TrayIcon.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\UIDelegate.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\Utils.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\WinImplBase.obj
+         C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\obj\DuiLib\XUnzip.obj
+           正在创建库 ../lib/DuiLib_d.lib 和对象 ../lib/DuiLib_d.exp
+         DuiLib.vcxproj -> C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\lib\DuiLib.dll
+     1>已完成生成项目“C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\LoganUI\DuiLib.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:18.20

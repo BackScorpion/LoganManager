@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,30">
+    <VerticalLayout bordersize="0" float="false" bkcolor="#FFFFFAFA">
+        <HorizontalLayout bordersize="0" float="false" height="30" bkcolor="#FFDCDCDC">
+            <Label name="lab_title" text="  主页面" bordersize="0" float="false" width="315" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <HorizontalLayout bordersize="0" float="false" />
+            <HorizontalLayout bordersize="0" float="false" width="324" height="30" />
+            <HorizontalLayout bordersize="0" float="false" width="60" height="30">
+                <Button name="btn_main_min" text="-" bordersize="0" float="false" width="25" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="btn_main_close" text="X" bordersize="0" float="false" width="25" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <VerticalLayout bordersize="0" float="false" width="800" height="11" />
+        <HorizontalLayout bordersize="0" float="false" width="800" height="530">
+            <VerticalLayout bordersize="0" float="false" width="500">
+                <HorizontalLayout bordersize="0" float="false" height="40">
+                    <Combo dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="com_first" bordersize="2" float="false" width="120" height="30" bkcolor="#FFDCDCDC">
+                        <ListLabelElement />
+                        <ListLabelElement />
+                        <ListLabelElement />
+                    </Combo>
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Button name="btn_ctl_first" text="控制" bordersize="0" float="false" width="60" height="30" bkcolor="#FFDCDCDC" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Combo dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="com_second" bordersize="2" float="false" width="120" height="30" bkcolor="#FFDCDCDC">
+                        <ListLabelElement />
+                        <ListLabelElement />
+                        <ListLabelElement />
+                    </Combo>
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Button name="btn_ctl_second" text="控制" bordersize="0" float="false" width="60" height="30" bkcolor="#FFDCDCDC" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+                <HorizontalLayout bordersize="0" float="false" height="200">
+                    <Button bordersize="0" float="false" width="210" height="200" bkcolor="#FF00FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Button bordersize="0" float="false" width="210" height="200" bkcolor="#FF00FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+                <HorizontalLayout bordersize="0" float="false" height="40">
+                    <Combo dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="com_third" bordersize="2" float="false" width="120" height="30" bkcolor="#FFDCDCDC">
+                        <ListLabelElement />
+                        <ListLabelElement />
+                        <ListLabelElement />
+                    </Combo>
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Button name="btn_ctl_third" text="控制" bordersize="0" float="false" width="60" height="30" bkcolor="#FFDCDCDC" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Combo dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" name="com_fourth" bordersize="2" float="false" width="120" height="30" bkcolor="#FFDCDCDC">
+                        <ListLabelElement />
+                        <ListLabelElement />
+                        <ListLabelElement />
+                    </Combo>
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Button name="btn_ctl_fourth" text="控制" bordersize="0" float="false" width="60" height="30" bkcolor="#FFDCDCDC" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+                <HorizontalLayout bordersize="0" float="false" height="200">
+                    <Button bordersize="0" float="false" width="210" height="200" bkcolor="#FF00FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <HorizontalLayout bordersize="0" float="false" width="30" />
+                    <Button bordersize="0" float="false" width="210" height="200" bkcolor="#FF00FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+                <HorizontalLayout bordersize="0" float="false" height="50">
+                    <Button name="btn_up_page" text="上一页" bordersize="0" float="false" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <Button name="btn_down_page" text="下一页" bordersize="0" float="false" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <CheckBox width="60" name="check_auto" endellipsis="true" bkcolor="#FF00FF00" selected="true" text="自动轮训" height="30" />
+                    <Label name="lab_page" text="1/3" bordersize="0" float="false" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                    <Button name="btn_full" text="全屏" bordersize="0" float="false" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+            </VerticalLayout>
+            <VerticalLayout bordersize="0" float="false" width="300">
+                <List name="list_info" bordersize="2" float="false" width="300" height="300" bkcolor="#FF00FF00" menu="true" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" vscrollbar="true">
+                    <ListHeader name="list_head" bordersize="0" float="false">
+                        <ListHeaderItem text="名称" bordersize="0" float="false" width="75" height="40" minwidth="16" textcolor="#FF000000" sepwidth="4" align="center" />
+                        <ListHeaderItem text="IP" bordersize="0" float="false" width="75" height="40" minwidth="16" textcolor="#FF000000" sepwidth="4" align="center" />
+                        <ListHeaderItem text="位置" bordersize="0" float="false" width="75" height="40" minwidth="16" textcolor="#FF000000" sepwidth="4" align="center" />
+                        <ListHeaderItem text="操作" bordersize="0" float="false" width="75" height="40" minwidth="16" textcolor="#FF000000" sepwidth="4" align="center" />
+                    </ListHeader>
+                    <ListLabelElement />
+                </List>
+                <VerticalLayout bordersize="0" float="false" width="300" height="200">
+                    <HorizontalLayout bordersize="0" float="false" width="157" height="28">
+                        <Option name="opt_base" text="基本" bordersize="0" float="false" width="60" height="30" bkcolor="#FF00FFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                        <Option name="opt_extend" text="扩展" bordersize="0" float="false" width="60" height="30" bkcolor="#FF0000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                    </HorizontalLayout>
+                    <TabLayout name="tab_xtool" bordersize="0" float="false" width="287" height="192" bkcolor="#FF757676" selectedid="-1" />
+                </VerticalLayout>
+            </VerticalLayout>
+            <VerticalLayout bordersize="0" float="false" width="10" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

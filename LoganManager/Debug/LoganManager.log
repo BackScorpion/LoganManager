@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/4/1 21:07:11。
+     1>项目“C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\LoganManager\LoganManager.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt LogIn.cpp
+         LogIn.cpp
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\utils\utils.h(350): warning C4251: “DuiLib::CDuiFont::m_strFilePath”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“DuiLib::CDuiFont”的客户端使用
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\utils\utils.h(351): warning C4251: “DuiLib::CDuiFont::m_strFontName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“DuiLib::CDuiFont”的客户端使用
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\core\uimanager.h(47): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\control\uifilelist.h(65): warning C4251: “DuiLib::Node::_children”: class“std::vector<DuiLib::Node *,std::allocator<_Ty>>”需要有 dll 接口由 class“DuiLib::Node”的客户端使用
+                 with
+                 [
+                     _Ty=DuiLib::Node *
+                 ]
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\control\uimenu.h(212): warning C4275: 非 dll 接口 class“DuiLib::ReceiverImpl”用作 dll 接口 class“DuiLib::CMenuWnd”的基
+         c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\control\uimenu.h(151): note: 参见“DuiLib::ReceiverImpl”的声明
+         c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\control\uimenu.h(212): note: 参见“DuiLib::CMenuWnd”的声明
+     1>c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\control\uimenu.h(237): warning C4251: “DuiLib::CMenuWnd::m_xml”: class“DuiLib::STRINGorID”需要有 dll 接口由 class“DuiLib::CMenuWnd”的客户端使用
+         c:\users\yoohoo\desktop\loganmanager\loganmanager\loganui\utils\utils.h(15): note: 参见“DuiLib::STRINGorID”的声明
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\Debug\LoganManager.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\Debug\LoganManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\Debug\LoganManager.lib" /MACHINE:X86 /SAFESEH Debug\LogIn.obj
+         Debug\MainWindow.obj
+         Debug\Request.obj
+         Debug\Setting.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\WinMain.obj
+     1>LogIn.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         LoganManager.vcxproj -> C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\Debug\LoganManager.exe
+     1>已完成生成项目“C:\Users\Yoohoo\Desktop\LoganManager\LoganManager\LoganManager\LoganManager.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.29

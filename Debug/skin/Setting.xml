@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="359,262" sizebox="4,4,4,4" caption="0,0,0,30" mininfo="359,262" maxinfo="359,262" roundcorner="8,8">
+    <Font name="宋体" size="21" bold="false" italic="false" />
+    <VerticalLayout bordersize="0" float="false" bkcolor="#FFFFFBF0">
+        <VerticalLayout bordersize="0" float="false" width="359" height="30" bkcolor="#FF2A97D4">
+            <Label text="设置" bordersize="0" float="false" width="356" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </VerticalLayout>
+        <VerticalLayout bordersize="0" float="false" width="360" height="30">
+            <Button name="btn_back" text="返回" bordersize="0" float="true" pos="268,4,0,0" width="60" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </VerticalLayout>
+        <VerticalLayout bordersize="0" float="false" width="358" height="41">
+            <Label text="集中管理软件" bordersize="0" float="true" pos="5,3,0,0" width="351" height="39" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+        </VerticalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="358" height="17" />
+        <HorizontalLayout bordersize="0" float="false" width="358" height="31">
+            <Label text="IP：" bordersize="0" float="true" pos="4,3,0,0" width="139" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="right" />
+            <Edit name="edit_ip" bordersize="0" float="true" pos="141,0,0,0" width="151" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="file=&apos;password.png&apos; source=&apos;0,0,208,34&apos;" hotimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos;" focusedimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos;" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="360" height="31">
+            <Label text="端口：" bordersize="0" float="true" pos="4,4,0,0" width="139" height="27" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="right" />
+            <Edit name="edit_port" bordersize="0" float="true" pos="141,0,0,0" width="151" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="file=&apos;password.png&apos; source=&apos;0,0,208,34&apos;" hotimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos;" focusedimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos;" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="360" height="27" />
+        <HorizontalLayout bordersize="0" float="false" width="359" height="35">
+            <Button name="btn_save" text="保存" bordersize="0" float="true" pos="60,1,0,0" width="88" height="30" bordercolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="btn_cannel" text="取消" bordersize="0" float="true" pos="206,1,0,0" width="87" height="30" bordercolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

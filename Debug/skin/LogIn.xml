@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="359,262" sizebox="4,4,4,4" caption="0,0,0,30" mininfo="359,262" maxinfo="359,262" roundcorner="8,8">
+    <Font name="宋体" size="24" bold="false" italic="false" />
+    <VerticalLayout bordersize="0" float="false" width="400" height="317" bkcolor="#FFFFFBF0">
+        <HorizontalLayout bordersize="0" float="false" height="30" bkcolor="#FF008080">
+            <VerticalLayout bordersize="0" float="false">
+                <Label text="登录" bordersize="0" float="true" pos="12,3,0,0" width="121" height="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </VerticalLayout>
+            <HorizontalLayout bordersize="0" float="false" width="30" height="30">
+                <Button name="btn_close" bordersize="0" float="true" pos="4,6,0,0" width="21" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close.png&apos; source=&apos;0,0,30,29&apos;" hotimage="file=&apos;close.png&apos; source=&apos;60,0,90,29&apos;" pushedimage="file=&apos;close.png&apos; source=&apos;30,0,60,29&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <VerticalLayout bordersize="0" float="false" height="5" />
+        <HorizontalLayout bordersize="0" float="false" width="366" height="30">
+            <VerticalLayout bordersize="0" float="false" width="272" height="30" />
+            <Button name="btn_setting" text="设置" bordersize="0" float="false" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="366" height="45">
+            <Label name="lab_title" text="集中管理软件" bordersize="0" float="false" width="364" height="45" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="395" height="33">
+            <Edit name="user_name" bordersize="0" float="true" pos="122,2,0,0" width="180" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" normalimage="file=&apos;password.png&apos; source=&apos;0,0,208,34&apos; corner=&apos;8,8,8,8&apos; mask=&apos;0xff808080&apos;" hotimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos; corner=&apos;8,8,8,8&apos;" focusedimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos; corner=&apos;8,8,8,8&apos;" />
+            <HorizontalLayout bordersize="0" float="false" width="68" height="30" />
+            <Label text="账户：" bordersize="0" float="true" pos="71,7,0,0" width="50" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="right" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="365" height="33">
+            <Label name="lab_pwd" text="密码：" bordersize="0" float="true" pos="71,8,0,0" width="50" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="right" />
+            <Edit name="pass_code" bordersize="0" float="true" pos="121,2,0,0" width="180" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" password="true" normalimage="file=&apos;password.png&apos; source=&apos;0,0,208,34&apos; corner=&apos;8,8,8,8&apos; mask=&apos;0xffc0c0c0&apos;" hotimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos; corner=&apos;8,8,8,8&apos;" focusedimage="file=&apos;password.png&apos; source=&apos;0,34,208,68&apos; corner=&apos;8,8,8,8&apos;" />
+            <HorizontalLayout bordersize="0" float="false" width="68" height="30" />
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="364" height="35">
+            <HorizontalLayout bordersize="0" float="false" width="176" height="35">
+                <Label text="记住密码" bordersize="0" float="true" pos="103,1,0,0" width="64" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <CheckBox name="check_rem" bordersize="0" float="true" pos="81,10,0,0" width="20" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;cril.png&apos; source=&apos;40,0,60,20&apos;" selectedimage="file=&apos;cril.png&apos; source=&apos;20,0,40,20&apos;" />
+            </HorizontalLayout>
+            <HorizontalLayout bordersize="0" float="false" width="133" height="35">
+                <Label text="自动登录" bordersize="0" float="true" pos="74,1,0,0" width="57" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <CheckBox name="check_auto_login" bordersize="0" float="true" pos="52,9,0,0" width="20" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='cril.png' source='40,0,60,20'" selectedimage="file=&apos;cril.png&apos; source=&apos;20,0,40,20&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout bordersize="0" float="false" width="360" height="44" bordercolor="#FFA0A0A4">
+            <Button name="btn_login" text="登录" bordersize="0" float="true" pos="88,6,0,0" width="76" height="32" bordercolor="#FF008080" focusbordercolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="btn_exit" text="退出" bordersize="0" float="true" pos="226,7,0,0" width="76" height="32" bordercolor="#FF008080" focusbordercolor="#FFC0C0C0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
